@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Card from './component/card'
+import FancyCard from './component/fancycard'
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Card header="1 of 13" text="What family is the cat part of?" option1="feline" option2="mammal" option3="canine"/>
+      <FancyCard header="1 of 13" text="What family is the cat part of?" option1="feline" option2="mammal" option3="canine"/>
+      
     </div>
   );
 }
