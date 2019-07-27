@@ -20,8 +20,8 @@ const FancyCard = ({header,text,option1,option2,option3}) => {
                         <ListGroupItem><Button variant="outline-info" block>{option3}</Button></ListGroupItem>
                     </ListGroup>
                     <Card.Body>
-                        <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="#">Previous</Card.Link>
+                        <Card.Link href="#">Next</Card.Link>
                     </Card.Body>
                 </Card>
             </Container>
