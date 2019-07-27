@@ -7,7 +7,7 @@ const FancyCard = ({header,text,option1,option2,option3}) => {
         <React.Fragment>
             <Container className="mt-3">
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/2016/10/31113305/Post-Event-Survey.jpg" />
+                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/randomimage.jpg`} />
                     <Card.Body>
                         <Card.Title>FancyCard</Card.Title>
                         <Card.Text>
